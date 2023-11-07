@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuiteCSS</title>
+</head>
+<body>
+    <div>
+        <style>
+            .Btn {
+                border: none;
+                border-radius: 10px;
+                padding: 15px 30px;
+            }
+            .Btn--primary {
+                background-color: rgb(8, 83, 188);
+                color:white;
+            }
+            .Btn--secondary {
+                background-color: gray; 
+                color:white;
+            }
+            .Btn--succes {
+                background-color: rgb(25, 133, 20); 
+                color:white;
+            }
+            .Btn--danger {
+                background-color: rgb(148, 11, 11); 
+                color:white;
+            }
+            .Btn--warning {
+                background-color: rgb(255, 200, 0); 
+                color:black;
+            }
+            .Btn--info {
+                background-color: rgb(0, 247, 255); 
+                color:black;
+            }
+
+            .Btn--light {
+                background-color: rgb(216, 216, 216); 
+                color:black;
+            }
+            .Btn--dark {
+                background-color: rgb(0, 0, 0); 
+                color:rgb(255, 255, 255);
+            }
+            .BtnO {
+                border: 2px solid;
+                border-radius: 10px;
+                padding: 15px 30px;
+                background-color: white;
+            }
+            .BtnO--primary{
+                border-color: rgb(8, 83, 188);
+                color: rgb(8, 83, 188);
+            }
+            .BtnO--secondary{
+                border-color: gray;
+                color: gray;
+            }
+            .BtnO--succes{
+                border-color: rgb(25, 133, 20);
+                color: rgb(25, 133, 20);
+            }
+            .BtnO--danger{
+                border-color: rgb(148, 11, 11);
+                color: rgb(148, 11, 11);
+            }
+            .BtnO--warning{
+                border-color:  rgb(255, 200, 0);
+                color:  rgb(255, 200, 0);
+            }
+            .BtnO--info{
+                border-color: rgb(0, 247, 255);
+                color: rgb(0, 247, 255);
+            }
+            .BtnO--light{
+                border-color: rgb(216, 216, 216);
+                color: rgb(216, 216, 216);
+            }
+            .BtnO--dark{
+                border-color: black;
+                color: black;
+            }
+        </style>
+        <h3>Ejercicio 1 suite css</h3>
+
+        <button class="Btn Btn--primary">Primary</button>
+        <button class="Btn Btn--secondary">Secondary</button>
+        <button class="Btn Btn--succes">Succes</button>
+        <button class="Btn Btn--danger">Danger</button>
+        <button class="Btn Btn--warning">Warning</button>
+        <button class="Btn Btn--info">Info</button>
+        <button class="Btn Btn--light">Light</button>
+        <button class="Btn Btn--dark">Dark</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <button class="BtnO BtnO--primary">Primary</button>
+        <button class="BtnO BtnO--secondary">Secondary</button>
+        <button class="BtnO BtnO--succes">Succes</button>
+        <button class="BtnO BtnO--danger">Danger</button>
+        <button class="BtnO BtnO--warning">Warning</button>
+        <button class="BtnO BtnO--info">Info</button>
+        <button class="BtnO BtnO--light">Light</button>
+        <button class="BtnO BtnO--dark">Dark</button>
+
+    </div>
+</body>
+</html>
